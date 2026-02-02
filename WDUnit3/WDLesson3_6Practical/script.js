@@ -1,5 +1,12 @@
 // Challenge 2:  Create the function for the Average program.  Refer to the resource link in the HTML for assistance.
+function Average(){
+    let g1 = parseFloat(document.getElementById("g1").value);
+    let g2 = parseFloat(document.getElementById("g2").value);
+    let g3 = parseFloat(document.getElementById("g3").value);
+    let output = document.getElementById("output");
 
+    let Average = (g1 + g2+ g3)/3;
+}
 
 // Challenge 4:  Create the function for the Slope program.  Refer to the resource link in the HTML for assistance.
 

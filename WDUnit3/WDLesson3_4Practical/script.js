@@ -29,6 +29,6 @@ let Evenmoreveggies = document.getElementById("Evenmoreveggies");
   veg2.innerHTML=veg2.value;
   girlspan.innerHTML=girlspan.value;
   /* Task 5: Set the display property of the element with an id of "story" to 'block' */
-
+document.getElementById("story").style.display = "block";
 
 }
